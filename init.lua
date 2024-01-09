@@ -21,7 +21,7 @@ require("lazy").setup('plugins', {})
 
 -- Indent
 vim.opt.smartindent = true
-vim.opt.expandtab = true
+vim.opt.expandtab = trues
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 
@@ -30,5 +30,11 @@ vim.opt.incsearch = true
 vim.opt.hlsearch = true
 vim.opt.wrapscan = true
 
+-- Line numbering
+vim.opt.relativenumber = true
+vim.opt.number = true
+vim.opt.signcolumn = 'number'
+
+-- Theme
 vim.cmd[[colorscheme catppuccin]]
 
