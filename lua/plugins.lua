@@ -76,6 +76,8 @@ return {
       vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})   
     end
   },
+	{ 'HiPhish/rainbow-delimiters.nvim',},
+	{ 'jiangmiao/auto-pairs' },
   {
     "sourcegraph/sg.nvim",
     dependencies = { "nvim-lua/plenary.nvim", "nvim-telescope/telescope.nvim" },
